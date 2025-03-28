@@ -1,1 +1,40 @@
+# Ignore Node.js dependencies in all subfolders
 */node_modules/
+
+# Logs
+*/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variable files in all subfolders
+*/.env
+*/.env.local
+*/.env.development
+*/.env.test
+*/.env.production
+
+# OS-Specific Files (Windows/macOS)
+.DS_Store
+Thumbs.db
+
+# IDE / Editor Settings (VS Code, JetBrains)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build and Output Files (if using TypeScript or Babel)
+*/dist/
+*/build/
+
+# Temporary & Backup Files
+tmp/
+temp/
+*.zip
+*.tar
+
+# Ignore package lock files (optional)
+*/package-lock.json
+*/yarn.lock
